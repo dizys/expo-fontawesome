@@ -40,13 +40,12 @@ You can use Font Awesome icons in your React Native components as simply as this
 <FontAwesomeIcon icon="coffee" />
 ```
 
-
 ### Explicit Import
 
 ```javascript
 import React, {Component} from 'react';
 import {View} from 'react-native';
-import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
+import {FontAwesomeIcon} from 'expo-fontawesome';
 import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 
 type Props = {};
@@ -85,7 +84,7 @@ To set the color of an icon, provide a `StyleSheet` like this:
 ```javascript
 import React, {Component} from 'react';
 import {View, StyleSheet} from 'react-native';
-import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
+import {FontAwesomeIcon} from 'expo-fontawesome';
 import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 
 type Props = {};
