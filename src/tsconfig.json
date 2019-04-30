@@ -1,0 +1,17 @@
+{
+  "extends": "@magicspace/configs/tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+
+    "jsx": "react-native",
+    "types": ["react", "react-native"],
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "declaration": true,
+
+    "rootDir": ".",
+    "outDir": "../lib"
+  }
+}

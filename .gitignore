@@ -1,0 +1,38 @@
+# Develepment environment
+
+.idea/
+.env
+
+# Cache files
+
+.yarn-offline-cache/
+
+# Installable packages
+
+node_modules/
+
+# Configuration
+
+.config/
+
+# Building artifacts
+
+bld/
+dist/
+lib/
+.cache/
+*.tgz
+
+# Debugging outputs
+
+debug/
+*.log
+webpack-bundle-stats.json
+
+# Testing files
+
+/test.*
+
+# File system
+
+.DS_Store

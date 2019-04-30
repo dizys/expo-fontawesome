@@ -1,0 +1,44 @@
+{
+  "name": "expo-fontawesome",
+  "version": "0.1.0",
+  "description": "React Native component for Font Awesome 5 in managed Expo app",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p src",
+    "lint": "tslint -p src",
+    "test": "yarn build && yarn lint"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dizys/expo-fontawesome.git"
+  },
+  "author": "Dizy",
+  "license": "MIT",
+  "peerDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "expo": "^32.0.0",
+    "react": "^16.5.0",
+    "react-native": "^0.57.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@magicspace/configs": "^0.1.48",
+    "@magicspace/tslint-rules": "^0.1.42",
+    "@types/expo": "^32.0.11",
+    "@types/humps": "^1.1.2",
+    "expo": "^32.0.6",
+    "react": "^16.8.6",
+    "react-native": "^0.59.5",
+    "rimraf": "^2.6.3",
+    "tslint": "^5.16.0",
+    "tslint-language-service": "^0.9.9",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "humps": "^2.0.1"
+  }
+}
