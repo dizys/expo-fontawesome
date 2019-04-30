@@ -1,3 +1,5 @@
+[![NPM Package](https://badge.fury.io/js/expo-fontawesome.svg)](https://www.npmjs.com/package/expo-fontawesome) [![Build Status](https://travis-ci.org/dizys/expo-fontawesome.svg?branch=master)](https://travis-ci.org/dizys/expo-fontawesome)
+
 # expo-fontawesome
 
 React Native Font Awesome component for managed Expo app
