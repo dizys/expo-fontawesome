@@ -32,7 +32,7 @@ export interface FontAwesomeIconProps {
 export const FontAwesomeIcon: React.FunctionComponent<
   FontAwesomeIconProps
 > = props => {
-  let {icon: iconArgs, mask: maskArgs, style, size} = props;
+  let {icon: iconArgs, mask: maskArgs, style = {}, size} = props;
 
   let iconLookup = normalizeIconArgs(iconArgs);
 
