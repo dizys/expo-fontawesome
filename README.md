@@ -2,7 +2,7 @@
 
 # expo-fontawesome
 
-React Native Font Awesome component for managed Expo app
+React Native component for Font Awesome 5 in managed Expo app
 
 ## Introduction
 
